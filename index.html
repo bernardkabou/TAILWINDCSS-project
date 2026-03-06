@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarium | Discover the Art of Seafood Dining</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="font-base text-dark bg-white antialiased overflow-x-hidden">
+    <header class="absolute top-0 left-0 w-full z-50 py-5 text-white phone:py-[15px]">
+        <div class="max-w-[1100px] mx-auto px-5 w-full flex justify-between items-center">
+            <div class="font-title text-[33px] phone:text-2xl">Aquarium</div>
+            <nav class="hidden phone:hidden md:block">
+                <ul class="flex gap-[30px]">
+                    <li><a href="index.html" class="text-orange transition-colors hover:text-orange">Home</a></li>
+                    <li><a href="menu.html" class="transition-colors hover:text-orange">Menu</a></li>
+                    <li><a href="#about" class="transition-colors hover:text-orange">About us</a></li>
+                    <li><a href="#reservations" class="transition-colors hover:text-orange">Reservations</a></li>
+                    <li><a href="#contact" class="transition-colors hover:text-orange">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hidden md:flex items-center gap-[10px] font-light">
+                <img src="assets/logos/call.svg" alt="Call icon" class="w-5 h-5 invert">
+                <span>+1 234 567 890</span>
+            </div>
+            <div class="flex flex-col gap-[6px] cursor-pointer md:hidden">
+                <span class="w-[30px] h-[0.5px] bg-white"></span>
+                <span class="w-[30px] h-[0.5px] bg-white"></span>
+                <span class="w-[30px] h-[0.5px] bg-white"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section
+            class="h-screen min-h-[674px] bg-dark bg-cover bg-center flex items-center text-white phone:min-h-[500px] phone:text-center"
+            style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/main-bg.jpg');">
+            <div class="max-w-[1100px] mx-auto px-5 w-full pt-[100px] relative phone:pt-[60px]">
+                <p class="font-base text-lg font-light mb-5 uppercase tracking-[2px] phone:text-sm">Discover the Art of
+                </p>
+                <h1 class="font-title text-[80px] mb-[30px] leading-[1.1] phone:text-[48px] phone:mb-5">Seafood Dining
+                </h1>
+                <p
+                    class="font-base text-lg font-light mb-10 max-w-[600px] phone:text-base phone:mx-auto phone:mb-[30px]">
+                    Where Fresh Seafood Meets Exceptional Service</p>
+                <div class="mb-20 phone:mb-10">
+                    <a href="menu.html"
+                        class="inline-block py-3 px-[30px] text-lg font-bold transition-all text-center bg-orange text-dark hover:bg-orange-dark">View
+                        menu</a>
+                </div>
+
+                <div
+                    class="flex gap-[60px] border-t border-white/20 pt-[30px] phone:flex-col phone:gap-[15px] phone:pt-5 phone:text-left">
+                    <div class="flex items-center gap-[15px] font-alt text-sm font-light">
+                        <img src="assets/logos/location.svg" alt="Location" class="w-6 h-6 invert">
+                        <span>1050 5th Ave, New York, NY 10028, USA</span>
+                    </div>
+                    <div class="flex items-center gap-[15px] font-alt text-sm font-light">
+                        <img src="assets/logos/clock.svg" alt="Clock" class="w-6 h-6 invert">
+                        <span>Opening Hours: Mo-Sa: 10:00 - 22:00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Passion Section -->
+        <section class="py-[100px] bg-white phone:py-[60px]" id="about">
+            <div class="max-w-[1100px] mx-auto px-5 w-full flex items-center gap-20 phone:flex-col phone:gap-10">
+                <div class="shrink-0 basis-[440px] phone:basis-auto phone:w-full">
+                    <img src="assets/images/restaurant-table.jpg" alt="Restaurant table"
+                        class="w-full h-[600px] object-cover phone:h-[300px]">
+                </div>
+                <div class="flex-1 phone:text-center">
+                    <h2
+                        class="font-title text-4xl leading-[1.5] text-dark mb-[30px] uppercase phone:text-[28px] phone:mb-5">
+                        DISCOVER THE PASSION BEHIND OUR SEAFOOD RESTAURANT</h2>
+                    <div class="font-base text-lg leading-[1.8] text-dark font-light phone:text-base">
+                        <p class="mb-5">We're more than just a place to grab a bite. Our passion for seafood has driven
+                            us to create
+                            a dining experience like no other, combining the freshest ingredients with exceptional
+                            service in a warm and inviting atmosphere.</p>
+                        <p>Our team of talented chefs takes pride in hand-selecting the best seafood from local markets,
+                            ensuring that each dish we serve is of the highest quality. Whether you're in the mood for a
+                            classic seafood platter or a creative and innovative dish, you can be sure that you're
+                            getting the best that the ocean has to offer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dishes Section -->
+        <section class="py-[100px] bg-dark text-white phone:py-[60px]" id="dishes">
+            <div class="max-w-[1100px] mx-auto px-5 w-full flex gap-20 phone:flex-col phone:gap-10">
+                <div class="flex-1 phone:order-2 phone:text-center">
+                    <div class="mb-[60px] phone:mb-[30px]">
+                        <h2 class="font-title text-4xl mb-5 uppercase phone:text-[28px]">OUR SEAFOOD DISHES</h2>
+                        <p
+                            class="font-base text-lg font-light leading-[1.8] max-w-[535px] phone:text-base phone:mx-auto">
+                            From succulent grilled salmon to creamy lobster bisque, our
+                            dishes are prepared with a focus on both flavor and presentation.</p>
+                    </div>
+                    <div class="flex gap-5 mb-[60px] phone:flex-col phone:items-center phone:gap-[30px] phone:mb-10">
+                        <div class="w-[168px] phone:w-full phone:max-w-[200px]">
+                            <div class="w-[168px] h-[114px] mb-[15px] phone:w-full phone:h-[130px]">
+                                <img src="assets/images/example-food-1.jpg" alt="Grilled Sea Bass"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <h3 class="font-base text-lg font-normal mb-2">Grilled Sea Bass</h3>
+                            <p class="font-base text-sm font-light text-white/80">23 USD</p>
+                        </div>
+                        <div class="w-[168px] phone:w-full phone:max-w-[200px]">
+                            <div class="w-[168px] h-[114px] mb-[15px] phone:w-full phone:h-[130px]">
+                                <img src="assets/images/example-food-2.jpg" alt="Lobster Bisque"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <h3 class="font-base text-lg font-normal mb-2">Lobster Bisque</h3>
+                            <p class="font-base text-sm font-light text-white/80">15 USD</p>
+                        </div>
+                        <div class="w-[168px] phone:w-full phone:max-w-[200px]">
+                            <div class="w-[168px] h-[114px] mb-[15px] phone:w-full phone:h-[130px]">
+                                <img src="assets/images/example-food-3.jpg" alt="Oysters Rockefeller"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <h3 class="font-base text-lg font-normal mb-2">Oysters Rockefeller</h3>
+                            <p class="font-base text-sm font-light text-white/80">18 USD</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 phone:flex-col phone:items-center">
+                        <a href="menu.html"
+                            class="inline-block py-3 px-[30px] text-lg font-bold transition-all text-center bg-orange text-dark hover:bg-orange-dark">View
+                            Menu</a>
+                        <a href="#"
+                            class="inline-block py-3 px-[30px] text-lg font-bold transition-all text-center bg-orange text-dark hover:bg-orange-dark">Download
+                            Menu</a>
+                    </div>
+                </div>
+                <div class="shrink-0 basis-[440px] phone:basis-auto phone:w-full phone:order-1">
+                    <div class="relative h-[601px] w-[440px] phone:w-full phone:h-[300px]">
+                        <img src="assets/images/oysters.jpg" alt="Fresh Oysters" class="w-full h-full object-cover">
+                        <span
+                            class="absolute bottom-5 right-5 font-base text-sm bg-dark/70 py-[5px] px-3 text-white">Oysters
+                            Rockefeller</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="py-[100px] bg-white phone:py-[60px]" id="values">
+            <div class="max-w-[1100px] mx-auto px-5 w-full flex items-start gap-20 phone:flex-col phone:gap-10">
+                <div class="shrink-0 basis-[540px] phone:basis-auto phone:w-full">
+                    <div class="w-full h-[808px] phone:h-[400px]">
+                        <img src="assets/images/chef-cooking.jpg" alt="Chef cooking" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="flex-1 flex flex-col gap-[60px] phone:gap-10">
+                    <div class="max-w-[535px] phone:text-center phone:mx-auto">
+                        <h2 class="font-title text-4xl mb-[25px] uppercase phone:text-[28px]">THE FRESH AND FLAVORFUL
+                            WORLD OF SEAFOOD</h2>
+                        <p class="font-base text-lg font-light leading-[1.8] text-dark phone:text-base">We believe that
+                            fresh seafood is the key to great taste. That's why we
+                            source only the finest ingredients, expertly crafting each dish to bring out the best
+                            flavors.</p>
+                    </div>
+                    <div class="w-full h-[600px] phone:h-[300px]">
+                        <img src="assets/images/restaurant-room-2.jpg" alt="Restaurant interior"
+                            class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section class="py-[100px] bg-dark text-white phone:py-[60px]" id="reservation">
+            <div class="max-w-[1100px] mx-auto px-5 w-full">
+                <div class="flex justify-between gap-20 phone:flex-col phone:gap-10 phone:text-center">
+                    <div class="flex-1">
+                        <h2 class="font-title text-4xl mb-[30px] uppercase phone:text-[28px]">GET A RESERVATION</h2>
+                        <p class="font-base text-lg font-light leading-[1.8] mb-[25px] text-white/90 phone:text-base">
+                            Monday – Saturday: 11:30am-2pm (lunch); 5-11pm (dinner)<br>Sunday:
+                            11:30am-2pm (lunch); 5-10pm (dinner)</p>
+                        <p class="font-base text-lg font-light leading-[1.8] mb-[25px] text-white/90 phone:text-base">We
+                            politely request that you dress your best for your evening
+                            with us. Jackets are not required.</p>
+                        <div
+                            class="mt-[50px] space-y-[10px] phone:mt-[30px] font-base text-lg font-light leading-[1.8] text-white/90 phone:text-base">
+                            <p>PHONE: +1 234 567 890</p>
+                            <p>GENERAL: aquarium@info.com</p>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <h2 class="font-title text-4xl mb-[30px] uppercase phone:text-[28px]">MORE INFORMATION</h2>
+                        <p class="font-base text-lg font-light leading-[1.8] mb-[25px] text-white/90 phone:text-base">
+                            Location : 4782 Rosewood Court</p>
+                        <p class="font-base text-lg font-light leading-[1.8] mb-[25px] text-white/90 phone:text-base">
+                            Connect with us : Facebook, Instagram</p>
+                        <div class="w-full h-[237px] mt-10 phone:mt-5">
+                            <img src="assets/images/restaurant-room.jpg" alt="Restaurant room"
+                                class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-[100px] bg-white phone:py-[60px]" id="contact">
+            <div class="max-w-[1100px] mx-auto px-5 w-full">
+                <div class="mb-[60px] phone:mb-10 phone:text-center">
+                    <h2 class="font-title text-4xl mb-[10px] uppercase phone:text-[28px]">GET IN TOUCH WITH US</h2>
+                    <p class="font-base text-lg font-light text-dark phone:text-base">Leave your information and will
+                        get back to you promptly.</p>
+                </div>
+                <div class="flex items-start gap-10 phone:flex-col phone:items-center phone:gap-[30px]">
+                    <div class="shrink-0 basis-[170px] h-[315px] mt-20 phone:hidden">
+                        <img src="assets/images/seafood.jpg" alt="Seafood" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-1 max-w-[300px] phone:max-w-none phone:w-full">
+                        <form class="">
+                            <div class="mb-[25px]">
+                                <label for="name" class="block font-base text-sm font-light mb-2 text-dark">Your
+                                    name</label>
+                                <input type="text" id="name" placeholder="Enter here"
+                                    class="w-full p-3 border border-dark/20 bg-transparent font-base text-sm focus:outline-none focus:border-orange">
+                            </div>
+                            <div class="mb-[25px]">
+                                <label for="phone" class="block font-base text-sm font-light mb-2 text-dark">Your phone
+                                    number</label>
+                                <input type="tel" id="phone" placeholder="Enter here"
+                                    class="w-full p-3 border border-dark/20 bg-transparent font-base text-sm focus:outline-none focus:border-orange">
+                            </div>
+                            <div class="mb-[25px]">
+                                <label for="message" class="block font-base text-sm font-light mb-2 text-dark">Your
+                                    message</label>
+                                <textarea id="message" placeholder="Enter here"
+                                    class="w-full p-3 border border-dark/20 bg-transparent font-base text-sm h-[130px] resize-none focus:outline-none focus:border-orange"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="inline-block py-3 px-[30px] text-lg font-bold transition-all text-center bg-orange text-dark hover:bg-orange-dark w-full">Send
+                                now</button>
+                        </form>
+                    </div>
+                    <div class="shrink-0 basis-[440px] h-[570px] phone:basis-auto phone:w-full phone:h-[300px]">
+                        <img src="assets/images/shrimps-being-cooked.jpg" alt="Shrimps cooking"
+                            class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-[60px] pb-[30px] bg-dark text-white phone:py-10 phone:pb-5">
+        <div class="max-w-[1100px] mx-auto px-5 w-full">
+            <div
+                class="flex justify-between items-center mb-10 phone:flex-col phone:gap-[30px] phone:mb-[30px] phone:text-center">
+                <div class="font-title text-[33px]">Aquarium</div>
+                <nav class="">
+                    <ul class="flex gap-[30px] phone:flex-col phone:gap-[15px]">
+                        <li><a href="index.html" class="transition-colors hover:text-orange">Home</a></li>
+                        <li><a href="menu.html" class="transition-colors hover:text-orange">Our Menu</a></li>
+                        <li><a href="#about" class="transition-colors hover:text-orange">About us</a></li>
+                        <li><a href="#reservations" class="transition-colors hover:text-orange">Reservations</a></li>
+                        <li><a href="#contact" class="transition-colors hover:text-orange">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="flex gap-[15px]">
+                    <a href="#"
+                        class="w-9 h-9 border border-white/20 flex items-center justify-center transition-all hover:bg-orange hover:border-orange hover:text-dark"><img
+                            src="assets/logos/facebook.svg" alt="Facebook" class="w-4 h-4 invert"></a>
+                    <a href="#"
+                        class="w-9 h-9 border border-white/20 flex items-center justify-center transition-all hover:bg-orange hover:border-orange hover:text-dark"><img
+                            src="assets/logos/twitter.svg" alt="Twitter" class="w-4 h-4 invert"></a>
+                    <a href="#"
+                        class="w-9 h-9 border border-white/20 flex items-center justify-center transition-all hover:bg-orange hover:border-orange hover:text-dark"><img
+                            src="assets/logos/instagram.svg" alt="Instagram" class="w-4 h-4 invert"></a>
+                    <a href="#"
+                        class="w-9 h-9 border border-white/20 flex items-center justify-center transition-all hover:bg-orange hover:border-orange hover:text-dark"><img
+                            src="assets/logos/linkedIn.svg" alt="LinkedIn" class="w-4 h-4 invert"></a>
+                </div>
+            </div>
+            <div class="">
+                <hr class="border-t border-white/10 mb-5">
+                <p class="text-center text-sm opacity-60">Copyright © 2023 Aquarium | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
