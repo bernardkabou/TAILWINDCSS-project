@@ -281,7 +281,7 @@ Définie dans `tailwind.config.js` :
 ## 🔍 Dépannage
 
 ### Le CSS ne se met pas à jour
-Assurez-vous que `npm run watch` est lancé et surveille les fichiers HTML.
+Assurez-vous que que `npm run watch` est lancé et surveille les fichiers HTML.
 
 ### Les classes Tailwind ne fonctionnent pas
 Vérifiez que le chemin `content` dans `tailwind.config.js` pointe vers les fichiers HTML corrects.
